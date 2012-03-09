@@ -1,0 +1,18 @@
+About
+-----
+This is a simple "Hello World" style RESTful web service using Jersey (http://jersey.java.net/).
+
+Requirements
+------------
+This assumes you have the following already installed:
+Java
+Maven
+Tomcat
+
+Usage
+-----
+In the hello directory run the"mvn package" command.  You will see a lot of output at the end of which you should see a "Build Succesful" message.
+
+A "hello.war" file will be created in the hello/target directory.  Deploy that hello.war file to tomcat's webapp directory.
+
+Open a browser and go to "http://localhost:8080/hello/world". You should see a "Hello, hello!" message. 
